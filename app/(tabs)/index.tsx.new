@@ -1,12 +1,12 @@
-import { useRouter } from 'expo-router';
-import { StatusBar } from 'expo-status-bar';
 import React, { useCallback } from 'react';
 import { StyleSheet } from 'react-native';
+import { useRouter } from 'expo-router';
+import { StatusBar } from 'expo-status-bar';
 
-import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
-import { FloatingActionButton } from '@/components/notes/FloatingActionButton';
+import { ThemedText } from '@/components/ThemedText';
 import { NoteList } from '@/components/notes/NoteList';
+import { FloatingActionButton } from '@/components/notes/FloatingActionButton';
 import { useNotes } from '@/context/NotesContext';
 
 export default function HomeScreen() {
