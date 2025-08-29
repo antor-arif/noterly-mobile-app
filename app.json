@@ -10,7 +10,7 @@
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.yourcompany.noterly"
+      "bundleIdentifier": "com.arifur_rahman.noterly"
     },
     "android": {
       "adaptiveIcon": {
@@ -18,7 +18,7 @@
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "package": "com.yourcompany.noterly"
+      "package": "com.arifur_rahman.noterly"
     },
     "web": {
       "bundler": "metro",
